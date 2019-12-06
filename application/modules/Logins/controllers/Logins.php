@@ -30,11 +30,6 @@ class Logins extends MX_Controller {
 	}
 
     public function index() {
-<<<<<<< HEAD
-    	error_changess
-=======
-    	new_error_changess
->>>>>>> remotes/origin/dev_ariel
     	GET_REQUEST();
 		$data['generated_token'] = $this->security->get_csrf_hash();
 		$this->load->view('standard_layout', $data);
@@ -43,6 +38,7 @@ class Logins extends MX_Controller {
 	public function authentication() { 
 		POST_REQUEST();
 		activity_logs();
+		
 		$response = array('success' => false, 'msg'=> 'Internal Server Error');
 		
 		$form_data['username'] = strtolower($this->input->post('username'));
