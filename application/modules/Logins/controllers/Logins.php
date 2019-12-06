@@ -36,9 +36,7 @@ class Logins extends MX_Controller {
 	}
 
 	public function authentication() { 
-		POST_REQUEST();
-		activity_logs();
-		
+		POST_REQUEST();		
 		$response = array('success' => false, 'msg'=> 'Internal Server Error');
 		
 		$form_data['username'] = strtolower($this->input->post('username'));
