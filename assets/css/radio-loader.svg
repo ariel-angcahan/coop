@@ -1,0 +1,26 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" class="lds-radio" preserveAspectRatio="xMidYMid">
+	<!-- d="m14.672947 12.520702a72.352967 71.176496 0 0 1 72.352967 71.176496" -->
+	<g>
+		<title>background</title>
+		<rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+	</g>
+	<g>
+		<title>Layer 1</title>
+		<circle id="svg_1" fill="#40a7a9" r="11" cy="127.763764" cx="67.344261">
+			<animate attributeName="fill-opacity" calcMode="linear" values="0;1;1" keyTimes="0;0.2;1" dur="1.8" begin="0s" repeatCount="indefinite">
+			</animate>
+		</circle>
+		<path id="svg_2" stroke="#90e965" stroke-width="10" fill="none" d="m67.344261,99.763764a28,28 0 0 1 28,28">
+			<animate attributeName="stroke-opacity" calcMode="linear" values="0;1;1" keyTimes="0;0.2;1" dur="1.8" begin="0.18000000000000002s" repeatCount="indefinite">
+			</animate>
+		</path>
+		<path id="svg_3" stroke="#cbf262" stroke-width="10" fill="none" d="m67.344261,77.763764a50,50 0 0 1 50,50">
+			<animate attributeName="stroke-opacity" calcMode="linear" values="0;1;1" keyTimes="0;0.2;1" dur="1.8" begin="0.36000000000000004s" repeatCount="indefinite">
+			</animate>
+		</path>
+		<path stroke="#61b70b" id="svg_4" stroke-width="10" fill="none" d="m67.344261,57.263764a72,70.482761 0 0 1 72,70.482761">
+			<animate attributeName="stroke-opacity" calcMode="linear" values="0;1;1" keyTimes="0;0.2;1" dur="1.8" begin="0.54000000000000004s" repeatCount="indefinite">
+			</animate>
+		</path>
+	</g>
+</svg>

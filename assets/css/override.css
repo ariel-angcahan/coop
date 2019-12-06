@@ -1,0 +1,291 @@
+﻿/* fallback */
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(MaterialIcon.woff2) format("woff2");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Employee */
+.disabled {
+  cursor: disabled;
+}
+
+#searchPosition {
+  cursor: pointer;
+}
+
+/*Login*/
+.login-container {
+  margin: 5% 5% 5% 5%;
+  padding: 20px 25px 40px 25px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.margin-top-10 {
+  margin-top: 15%;
+}
+.margin-5 {
+  margin-right: 5px;
+}
+.logo-box {
+  padding: 15px 15px 15px 15px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .logo-box {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 868px) {
+  .logo-box {
+    margin-left: 55px;
+  }
+  .margin-top-10 {
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .logo-box {
+    margin-left: 0px;
+  }
+}
+.bgcallout {
+  margin-top: 15px;
+  padding: 3px 3px 3px 3px;
+  background-color: white;
+  border-radius: 25px;
+  text-align: center;
+}
+
+table#employeeList th:nth-child(1),
+th:nth-child(2),
+th:nth-child(3),
+th:nth-child(4),
+th:nth-child(5) {
+  text-align: center;
+}
+
+table#employeeList td:nth-child(3),
+td:nth-child(4) {
+  text-align: left;
+}
+
+table#employeeList td:nth-child(5) {
+  text-align: center;
+}
+
+#dependentList tr.selected {
+  color: white;
+  font-weight: bold;
+}
+
+#overTimeList tr.selected {
+  color: white;
+  font-weight: bold;
+}
+
+#overTimeList tr:hover {
+  cursor: pointer;
+}
+
+#avatar:hover {
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+
+/* TABLE STYLES */
+tabl#tblUsersList th {
+  background-color: #2196f3;
+  color: white;
+}
+table#tblUsersList td:nth-child(4) {
+  text-align: center;
+}
+
+/* END OF TABLE STYLES */
+
+.fa-trig {
+  cursor: pointer;
+}
+
+.has-rights {
+  color: blue;
+}
+
+.no-rights {
+  color: red;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+table#empList td:nth-child(4) {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table#tblAccessRights th {
+  background-color: #2196f3;
+  color: white;
+}
+
+table#tblAccessRights td:nth-child(2) {
+  text-align: center;
+  padding-bottom: 0px;
+  vertical-align: middle;
+}
+table#tblAccessRights td:nth-child(3) {
+  text-align: center;
+  padding-bottom: 0px;
+  vertical-align: middle;
+}
+table#tblAccessRights td:nth-child(4) {
+  text-align: center;
+  padding-bottom: 0px;
+  vertical-align: middle;
+}
+table#tblAccessRights td:nth-child(5) {
+  text-align: center;
+  padding-bottom: 0px;
+  vertical-align: middle;
+}
+
+table#dialogueList td:nth-child(3) {
+  text-align: center;
+}
+table#dialogueList td:nth-child(4) {
+  text-align: center;
+}
+
+#tblDisbursementList .dataTables_empty{
+  text-align: center;
+}
+
+table#tblDisbursementList td{
+  vertical-align: middle;
+}
+
+table#tblDisbursementList td:nth-child(5){
+  text-align: right;
+}
+
+table#tblOSIList td:nth-child(2){
+  text-align: right;
+}
+/*.table-condensed,
+td:nth-child(3)
+{
+  text-align: left;
+}*/
+
+.hideBtn {
+  display: none;
+}
+
+.showBtn {
+  display: block;
+}
+
+/*.preloader {
+  margin-left: 35%;
+}
+*/
+.fa-notAllowed {
+  color: gray;
+}
+.fa-notAllowed:hover {
+  cursor: not-allowed;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 400px;
+}  
+
+
+/*ayieee*/
+
+table#card_list tbody > tr > td:nth-child(4){
+  text-align: center;
+}
+
+/* benja edit */
+.smallpads {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.dboard a:link, a:visited, a:focus, a:hover, a:active {
+  text-decoration: none !important;
+}
+
+.info-box {
+  margin-bottom: 10px !important;
+  /*height: 100px !important;*/
+}
+
+.count-to {
+  margin-top: 0px !important;
+}
+
+.dboard {
+  height: 100px !important;
+}
+
+.dboard, .widget {
+  margin-bottom: 0px !important;    
+}
+
+.swal2-popup {
+  font-size: 1.5rem !important;
+}
+
+.overlaydiv {
+  background: #000000;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.65;
+  height: 101%;
+  width: 102%;
+  z-index: 2147483647;
+}
+
+li.active > span{
+  margin-top: 6px;
+}
+
+table.datatable > tbody > tr > td:last-child{
+  text-align: center;
+}
