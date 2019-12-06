@@ -30,6 +30,7 @@ class Logins extends MX_Controller {
 	}
 
     public function index() {
+    	error_changessd
     	GET_REQUEST();
 		$data['generated_token'] = $this->security->get_csrf_hash();
 		$this->load->view('standard_layout', $data);
